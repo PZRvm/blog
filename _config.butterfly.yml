@@ -1,0 +1,70 @@
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  类别: /categories/ || fas fa-folder-open
+  友情链接: /link/ || fas fa-link
+  关于作者: /about/ || fas fa-heart
+
+# Local search
+local_search:
+  enable: true
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # 如果没有查到内容相关内容显示
+
+# the subtitle on homepage (主頁subtitle)
+subtitle:
+  enable: true
+  effect: true
+  loop: true
+  source: false
+  sub:
+    - 生活写成一本未完待续的书
+    - 记录思考，分享生活
+
+index_img: /img/background.png
+avatar:
+  img: /img/avatar.jpg
+  effect: false
+  disable_top_img: true
+
+default_top_img: /img/background.png
+
+error_404:
+  enable: true
+  subtitle: '页面没有找到'
+
+nav:
+  display_title: true
+  fixed: false
+
+
+code_blocks:
+  theme: darker
+  macStyle: false
+  height_limit: false
+  word_wrap: false
+
+  copy: true
+  language: true
+  shrink: false
+  fullpage: false
+
+
+# 侧边栏
+aside:
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/PZRvm
+  card_webinfo:
+    enable: false
+  card_announcement:
+    enable: false
+  card_recent_post:
+    enable: false
