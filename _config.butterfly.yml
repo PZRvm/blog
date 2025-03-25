@@ -5,13 +5,6 @@ menu:
   类别: /categories/ || fas fa-folder-open
   关于作者: /about/ || fas fa-heart
 
-# Local search
-local_search:
-  enable: true
-  labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}" # 如果没有查到内容相关内容显示
-
 # the subtitle on homepage (主頁subtitle)
 subtitle:
   enable: true
